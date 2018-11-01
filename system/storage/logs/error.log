@@ -1,0 +1,20 @@
+2018-11-01 8:16:19 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'lovelen' in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 7
+2018-11-01 8:16:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:19 - PHP Notice:  Undefined variable: mysql in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:19 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:25 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'lovelen' in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 7
+2018-11-01 8:16:25 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:25 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:25 - PHP Notice:  Undefined variable: mysql in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:25 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:29 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'lovelen' in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 7
+2018-11-01 8:16:29 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:29 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:29 - PHP Notice:  Undefined variable: mysql in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:29 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:33 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'lovelen' in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 7
+2018-11-01 8:16:33 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:33 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\system\library\db\mysqli.php on line 10
+2018-11-01 8:16:33 - PHP Notice:  Undefined variable: mysql in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
+2018-11-01 8:16:33 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\3.0.2.0-OpenCart\upload\install\controller\install\step_3.php on line 280
