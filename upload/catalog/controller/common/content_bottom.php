@@ -39,7 +39,7 @@ class ControllerCommonContentBottom extends Controller {
 			$layout_id = $this->config->get('config_layout_id');
 		}
 
-		$this->load->model('setting/module');
+		$this->load->model('extension/module');
 
 		$data['modules'] = array();
 
@@ -48,27 +48,23 @@ class ControllerCommonContentBottom extends Controller {
 		foreach ($modules as $module) {
 			$part = explode('.', $module['code']);
 
-			if (isset($part[0]) && $this->config->get('module_' . $part[0] . '_status')) {
-				$module_data = $this->load->controller('extension/module/' . $part[0]);
-
-				if ($module_data) {
-					$data['modules'][] = $module_data;
-				}
+			if (isset($part[0]) && $this->config->get($part[0] . '_status')) {
+				$data['modules'][] = $this->load->controller('module/' . $part[0]);
 			}
 
 			if (isset($part[1])) {
-				$setting_info = $this->model_setting_module->getModule($part[1]);
+				$setting_info = $this->model_extension_module->getModule($part[1]);
 
 				if ($setting_info && $setting_info['status']) {
-					$output = $this->load->controller('extension/module/' . $part[0], $setting_info);
-
-					if ($output) {
-						$data['modules'][] = $output;
-					}
+					$data['modules'][] = $this->load->controller('module/' . $part[0], $setting_info);
 				}
 			}
 		}
 
-		return $this->load->view('common/content_bottom', $data);
+		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/content_bottom.tpl')) {
+			return $this->load->view($this->config->get('config_template') . '/template/common/content_bottom.tpl', $data);
+		} else {
+			return $this->load->view('default/template/common/content_bottom.tpl', $data);
+		}
 	}
 }
